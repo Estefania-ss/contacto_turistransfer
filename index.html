@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Turistransfer</title>
+    <style>
+        body {
+            background-image: url("fondo.png"); 
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .reservation-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 10px; 
+        }
+        img {
+            width: 200px; /* Ajusta el tamaño del logo */
+            margin-bottom: 10px; /* Ajusta el margen inferior del logo */
+        }
+        .boton {
+            background-color: rgba(128, 128, 128, 0.5); /* Color de fondo semi-transparente */
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 50px; /* Forma ovalada */
+            transition: background-color 0.3s; /* Transición suave */
+        }
+        .boton:hover {
+            background-color: rgba(128, 128, 128, 0.7); /* Color de fondo más oscuro al pasar el mouse */
+        }
+        /* Estilo para los íconos */
+        .icono {
+            width: 20px; /* Tamaño deseado para los íconos */
+            margin-right: 5px; /* Espacio entre el ícono y el texto */
+            vertical-align: middle; /* Alineación vertical */
+        }
+        .footer-text {
+            font-size: 20px; /* Tamaño de fuente más grande */
+            margin-top: 10px; /* Espacio superior */
+            color: red; /* Color de texto rojo */
+            font-family: 'Lumios Marker', cursive; /* Fuente 'Lumios Marker' */
+        }
+    </style>
+</head>
+<body>
+    <div class="reservation-container">
+        <img src="logo-tt.png" alt="Logo Turistransfer">
+        <h2>Contact Center</h2>
+        <div>
+            <a href="https://api.whatsapp.com/send?phone=56998171747" class="boton">
+                <img src="telefono.png" alt="Icono Teléfono" class="icono"> +56998171747
+            </a>
+        </div>
+        <div>
+            <a href="mailto:contacto@turistransfer.com" class="boton">
+                <img src="email.png" alt="Icono Email" class="icono"> contacto@turistransfer.com
+            </a>
+        </div>
+        <a href="https://drive.google.com/file/d/19sVjnZO3w3CjQb65kbrh7D8B7uTgOwww/view?usp=sharing" class="boton">
+            <img src="brochure.png" alt="Icono Brochure" class="icono"> Brochure
+        </a>
+        <a href="https://drive.google.com/file/d/456/view?usp=sharing" class="boton">Descargar PDF 2</a>
+        <p class="footer-text">Tu destino comienza con nosotros</p>
+    </div>
+</body>
+</html>
